@@ -1,10 +1,10 @@
 {
-  "version": "0.2.7",
-  "versionCode": 10,
-  "url": "https://github.com/riixly/lyriix-releases/releases/download/v1.0.4/Lyriix-Android-0.2.7.apk",
-  "size": 2672334,
-  "sha256": "bdaec95bf8d71abfbd23ddfd6f9196e799fbd9d061a15088367d578a35b13495",
+  "version": "0.2.8",
+  "versionCode": 11,
+  "url": "https://github.com/riixly/lyriix-releases/releases/download/v1.0.4/Lyriix-Android-0.2.8.apk",
+  "size": 2695126,
+  "sha256": "289a0395354f2e86fcb4b02afed8c8ef9dd297629825f8e1017ea3cf9a9c5fc6",
   "certificateSha256": "10be700d7319d1857be75080e0734a937ac4a350ffc19d22e4762540d3fd7574",
   "minimumWindowsVersion": "0.11.21",
-  "notes": "Lyriix Android v0.2.7\n\n- Shuffle the current playback queue without restarting the song.\n- Repeat controls cycle through Off, Repeat all, and Repeat one. Shuffle and repeat settings are remembered when reopening the app and apply during background playback.\n- Search reuses an indexed library snapshot and filters in the background instead of rereading the library on every keystroke.\n- Playback queues are prepared in the background, with checks that discard outdated selections and account or PC connection changes.\n- Offline music, pairing, and saved library data are preserved during the update.\n"
+  "notes": "Lyriix Android v0.2.8\n\n- Up Next shows the upcoming playback order, including shuffle. Tap a queued song to play it or remove it from the queue. Hold a library song for Play next or Add to queue.\n- Elapsed and total song times appear beside the seek bar, with a position preview while seeking.\n- Restore your previous song, queue, shuffle order, and saved position when reopening the player. Restored sessions stay paused until you tap Play and remain scoped to your account and paired PC. Missing songs are skipped safely.\n- Appearance settings include theme presets and a custom accent picker. Choose a wallpaper for the song-list area, adjust its dimming, or remove it.\n- Detect theme colors matches the app's solid colors and controls to your selected wallpaper while keeping text readable. Wallpaper processing and color detection happen locally on your phone.\n- Queue updates reuse rows, and position checkpoints avoid rewriting the full saved queue during playback.\n- Saved music, account credentials, pairing, and update-signing compatibility are preserved.\n"
 }
