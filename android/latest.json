@@ -1,10 +1,10 @@
 {
-  "version": "0.2.8",
-  "versionCode": 11,
-  "url": "https://github.com/riixly/lyriix-releases/releases/download/v1.0.4/Lyriix-Android-0.2.8.apk",
-  "size": 2695126,
-  "sha256": "289a0395354f2e86fcb4b02afed8c8ef9dd297629825f8e1017ea3cf9a9c5fc6",
+  "version": "0.2.9",
+  "versionCode": 12,
+  "url": "https://github.com/riixly/lyriix-releases/releases/download/v1.0.4/Lyriix-Android-0.2.9.apk",
+  "size": 2704358,
+  "sha256": "235ced908ba2e1fdee409870dd118a96fd60ae3879dcb5de1b09700a1f02dfa4",
   "certificateSha256": "10be700d7319d1857be75080e0734a937ac4a350ffc19d22e4762540d3fd7574",
   "minimumWindowsVersion": "0.11.21",
-  "notes": "Lyriix Android v0.2.8\n\n- Up Next shows the upcoming playback order, including shuffle. Tap a queued song to play it or remove it from the queue. Hold a library song for Play next or Add to queue.\n- Elapsed and total song times appear beside the seek bar, with a position preview while seeking.\n- Restore your previous song, queue, shuffle order, and saved position when reopening the player. Restored sessions stay paused until you tap Play and remain scoped to your account and paired PC. Missing songs are skipped safely.\n- Appearance settings include theme presets and a custom accent picker. Choose a wallpaper for the song-list area, adjust its dimming, or remove it.\n- Detect theme colors matches the app's solid colors and controls to your selected wallpaper while keeping text readable. Wallpaper processing and color detection happen locally on your phone.\n- Queue updates reuse rows, and position checkpoints avoid rewriting the full saved queue during playback.\n- Saved music, account credentials, pairing, and update-signing compatibility are preserved.\n"
+  "notes": "Lyriix Android v0.2.9\n\n- Choose the part of your wallpaper to show with a drag-and-zoom preview. Apply saves your position; Cancel keeps the existing wallpaper. Use Adjust wallpaper to reposition it later, or Reset to center it.\n- Fixed wallpaper and theme updates restarting the whole screen. Image loading, saving, and color detection use a dedicated background worker, with progress shown while processing. Playback and navigation stay connected.\n- Detect theme colors now favors dominant color families in your selected crop instead of small bright highlights. Detection uses a small local sample and retains readable theme contrast.\n- Wallpaper decoding no longer holds the shared image-cache lock, and applying a new wallpaper reuses its already-decoded image.\n- Existing songs, queues, account data, pairing, and Android update signing remain compatible.\n"
 }
