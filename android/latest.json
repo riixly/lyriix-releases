@@ -1,10 +1,10 @@
 {
-  "version": "0.2.3",
-  "versionCode": 6,
-  "url": "https://github.com/riixly/lyriix-releases/releases/download/v0.11.21/Lyriix-Android-0.2.3.apk",
-  "size": 2610402,
-  "sha256": "5fc781ff1ed14b0791aab699f9d40bb944e3cbd3f3c8bc04af3d9f168cebb9f6",
+  "version": "0.2.4",
+  "versionCode": 7,
+  "url": "https://github.com/riixly/lyriix-releases/releases/download/v1.0.0/Lyriix-Android-0.2.4.apk",
+  "size": 2660430,
+  "sha256": "2c77ca19091a0104fda3bd910e04e0d9cf7ac21a8295bafd99b7651883bee99f",
   "certificateSha256": "10be700d7319d1857be75080e0734a937ac4a350ffc19d22e4762540d3fd7574",
   "minimumWindowsVersion": "0.11.21",
-  "notes": "Lyriix Android v0.2.3\n\n- Tap the mini-player artwork for a larger album-art view with synchronized lyrics.\n- Keep the existing standalone lyrics page, plus landscape ambient fullscreen lyrics.\n- Display animated GIF and WebP profile avatars instead of freezing the first frame.\n- Export copies of downloaded songs to a folder chosen in Android Files; preserve all in-app offline downloads.\n- Android playback and Wi-Fi pairing behavior remain unchanged.\n"
+  "notes": "Lyriix Android v0.2.4\n\n- Replaced the mobile launcher icon with the original purple crystalline Lyriix logo, fitted to Android's adaptive launcher mask.\n- Updated the mobile Discord presence description to \"Listening on Lyriix Mobile.\"\n- Offline downloads and account data remain unchanged.\n"
 }
