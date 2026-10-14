@@ -1,10 +1,10 @@
 {
-  "version": "0.2.6",
-  "versionCode": 9,
-  "url": "https://github.com/riixly/lyriix-releases/releases/download/v1.0.2/Lyriix-Android-0.2.6.apk",
-  "size": 2667322,
-  "sha256": "cdb53067eb666864568a5489f393d21fb60c5efda06afcb3567d6e8e14b96946",
+  "version": "0.2.7",
+  "versionCode": 10,
+  "url": "https://github.com/riixly/lyriix-releases/releases/download/v1.0.4/Lyriix-Android-0.2.7.apk",
+  "size": 2672334,
+  "sha256": "bdaec95bf8d71abfbd23ddfd6f9196e799fbd9d061a15088367d578a35b13495",
   "certificateSha256": "10be700d7319d1857be75080e0734a937ac4a350ffc19d22e4762540d3fd7574",
   "minimumWindowsVersion": "0.11.21",
-  "notes": "Lyriix Android v0.2.6\n\n- Show Windows current song in Android playback bar with a Transfer button. Continue playing at the saved song position on Android through your paired Wi-Fi connection.\n- Option to disable transfer for independent simultaneous listening on both devices.\n- Lyriix downloads link in Settings. No changes to offline music storage.\n"
+  "notes": "Lyriix Android v0.2.7\n\n- Shuffle the current playback queue without restarting the song.\n- Repeat controls cycle through Off, Repeat all, and Repeat one. Shuffle and repeat settings are remembered when reopening the app and apply during background playback.\n- Search reuses an indexed library snapshot and filters in the background instead of rereading the library on every keystroke.\n- Playback queues are prepared in the background, with checks that discard outdated selections and account or PC connection changes.\n- Offline music, pairing, and saved library data are preserved during the update.\n"
 }
