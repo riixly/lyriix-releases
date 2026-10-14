@@ -1,0 +1,10 @@
+{
+  "version": "0.2.0",
+  "versionCode": 3,
+  "url": "https://github.com/riixly/lyriix-releases/releases/download/v0.11.20/Lyriix-Android-0.2.0.apk",
+  "size": 2576598,
+  "sha256": "b536b472ffcb79b83a90bca8142ac1dedaab14edcbe394f4f7a763bd5c9ab14e",
+  "certificateSha256": "10be700d7319d1857be75080e0734a937ac4a350ffc19d22e4762540d3fd7574",
+  "minimumWindowsVersion": "0.11.20",
+  "notes": "# Lyriix Android 0.2.0 \u2014 first public beta\n\n- Synced lyrics with line and word highlighting, a fading trail, tap-to-seek, and automatic following. Scroll manually to pause following, or tap Follow lyrics.\n- Downloaded songs keep the PC's lyrics for offline playback. Plain lyrics and instrumental tracks have their own display.\n- A visible Lyrics button on the player.\n- Persistent download progress, per-song percentages, byte totals, queue states, cancellation, and retries.\n- Profiles use the PC app's layout, avatar, role badge, favorite songs and albums, recent tracks, statistics, privacy settings, profile editing, browsing, and friends. Profile music remains view-only.\n- Automatic beta update checks and in-app APK downloads. Updates verify the checksum, version, package, and signing key; Android confirms installation.\n\nRequires Lyriix Windows 0.11.20 or later for synced lyrics. Use the same account and pair over Wi-Fi with the PC address and six-digit PIN.\n\nThis first public APK uses the permanent release signing key. Android cannot install it over an earlier private debug APK signed with a different key. If Android reports a signature conflict, uninstall that private preview first, install the public beta, and reconnect the PC. Later public beta updates install over this version and retain data.\n"
+}
