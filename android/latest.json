@@ -1,10 +1,10 @@
 {
-  "version": "0.2.2",
-  "versionCode": 5,
-  "url": "https://github.com/riixly/lyriix-releases/releases/download/v0.11.21/Lyriix-Android-0.2.2.apk",
-  "size": 2602306,
-  "sha256": "98017438bc4d2cec384dd8b97f8e275a1f948f077daf76d783712c5e4c9ffa45",
+  "version": "0.2.3",
+  "versionCode": 6,
+  "url": "https://github.com/riixly/lyriix-releases/releases/download/v0.11.21/Lyriix-Android-0.2.3.apk",
+  "size": 2610402,
+  "sha256": "5fc781ff1ed14b0791aab699f9d40bb944e3cbd3f3c8bc04af3d9f168cebb9f6",
   "certificateSha256": "10be700d7319d1857be75080e0734a937ac4a350ffc19d22e4762540d3fd7574",
   "minimumWindowsVersion": "0.11.21",
-  "notes": "Lyriix Android 0.2.2 beta\n\n- Relay mobile playback to Discord through your paired PC on the same Wi-Fi. Discord shows the song, artist, public artwork and \u201cListening on mobile.\u201d Keep Lyriix and Discord open on the PC and enable the PC's Discord presence setting. Requires Windows 0.11.21 or newer.\n- Mobile presence keeps working with the screen off, clears when paused and expires after a disconnected phone stops reporting. Disable sharing in Android Settings whenever you want.\n- Add audio from your phone's Downloads using \u201cAdd music from phone.\u201d Original files stay untouched; saved copies play offline and stay available when your PC is disconnected. Identical file content is reused instead of saving another copy.\n- Resume waiting downloads without losing partial files. A linear retry delay replaces exponential backoff, waiting reasons stay visible, and reconnecting Wi-Fi wakes stalled retries. Repeated download taps keep the same unique queue item.\n- Check the update signing identity before downloading. A matching-key update keeps the existing music, lyrics, likes, playlists and pairing. An incompatible preview update is blocked with instructions to keep the current app installed.\n\nDo not uninstall or clear app storage to force an incompatible update. Early private debug previews need a separate backup/migration if their original signing key is unavailable.\n\n- Removing music under one profile keeps other profiles\u2019 imported copies and download references available.\n- Download progress stays responsive as a large collection finishes, using the saved-song cache instead of repeatedly checking every completed song.\n"
+  "notes": "Lyriix Android v0.2.3\n\n- Tap the mini-player artwork for a larger album-art view with synchronized lyrics.\n- Keep the existing standalone lyrics page, plus landscape ambient fullscreen lyrics.\n- Display animated GIF and WebP profile avatars instead of freezing the first frame.\n- Export copies of downloaded songs to a folder chosen in Android Files; preserve all in-app offline downloads.\n- Android playback and Wi-Fi pairing behavior remain unchanged.\n"
 }
