@@ -1,10 +1,10 @@
 {
-  "version": "0.2.0",
-  "versionCode": 3,
-  "url": "https://github.com/riixly/lyriix-releases/releases/download/v0.11.20/Lyriix-Android-0.2.0.apk",
-  "size": 2576598,
-  "sha256": "b536b472ffcb79b83a90bca8142ac1dedaab14edcbe394f4f7a763bd5c9ab14e",
+  "version": "0.2.1",
+  "versionCode": 4,
+  "url": "https://github.com/riixly/lyriix-releases/releases/download/v0.11.21/Lyriix-Android-0.2.1.apk",
+  "size": 2602202,
+  "sha256": "ecef30b54b6f0aaa3844793f386ad7eba5b5d0efee0781e496bee7abacecea06",
   "certificateSha256": "10be700d7319d1857be75080e0734a937ac4a350ffc19d22e4762540d3fd7574",
-  "minimumWindowsVersion": "0.11.20",
-  "notes": "# Lyriix Android 0.2.0 \u2014 first public beta\n\n- Synced lyrics with line and word highlighting, a fading trail, tap-to-seek, and automatic following. Scroll manually to pause following, or tap Follow lyrics.\n- Downloaded songs keep the PC's lyrics for offline playback. Plain lyrics and instrumental tracks have their own display.\n- A visible Lyrics button on the player.\n- Persistent download progress, per-song percentages, byte totals, queue states, cancellation, and retries.\n- Profiles use the PC app's layout, avatar, role badge, favorite songs and albums, recent tracks, statistics, privacy settings, profile editing, browsing, and friends. Profile music remains view-only.\n- Automatic beta update checks and in-app APK downloads. Updates verify the checksum, version, package, and signing key; Android confirms installation.\n\nRequires Lyriix Windows 0.11.20 or later for synced lyrics. Use the same account and pair over Wi-Fi with the PC address and six-digit PIN.\n\nThis first public APK uses the permanent release signing key. Android cannot install it over an earlier private debug APK signed with a different key. If Android reports a signature conflict, uninstall that private preview first, install the public beta, and reconnect the PC. Later public beta updates install over this version and retain data.\n"
+  "minimumWindowsVersion": "0.11.21",
+  "notes": "Lyriix Android 0.2.1 beta\n\n- Relay mobile playback to Discord through your paired PC on the same Wi-Fi. Discord shows the song, artist, public artwork and \u201cListening on mobile.\u201d Keep Lyriix and Discord open on the PC and enable the PC's Discord presence setting. Requires Windows 0.11.21 or newer.\n- Mobile presence keeps working with the screen off, clears when paused and expires after a disconnected phone stops reporting. Disable sharing in Android Settings whenever you want.\n- Add audio from your phone's Downloads using \u201cAdd music from phone.\u201d Original files stay untouched; saved copies play offline and stay available when your PC is disconnected. Identical file content is reused instead of saving another copy.\n- Resume waiting downloads without losing partial files. A linear retry delay replaces exponential backoff, waiting reasons stay visible, and reconnecting Wi-Fi wakes stalled retries. Repeated download taps keep the same unique queue item.\n- Check the update signing identity before downloading. A matching-key update keeps the existing music, lyrics, likes, playlists and pairing. An incompatible preview update is blocked with instructions to keep the current app installed.\n\nDo not uninstall or clear app storage to force an incompatible update. Early private debug previews need a separate backup/migration if their original signing key is unavailable.\n"
 }
