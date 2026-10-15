@@ -1,10 +1,10 @@
 {
-  "version": "0.2.9",
-  "versionCode": 12,
-  "url": "https://github.com/riixly/lyriix-releases/releases/download/v1.0.4/Lyriix-Android-0.2.9.apk",
-  "size": 2704358,
-  "sha256": "235ced908ba2e1fdee409870dd118a96fd60ae3879dcb5de1b09700a1f02dfa4",
+  "version": "0.2.10",
+  "versionCode": 13,
+  "url": "https://github.com/riixly/lyriix-releases/releases/download/v1.0.4/Lyriix-Android-0.2.10.apk",
+  "size": 2719266,
+  "sha256": "7022520d32225b6c0f11b00e1d78d691faa6e31611ff5ec2196f7f914684eaf3",
   "certificateSha256": "10be700d7319d1857be75080e0734a937ac4a350ffc19d22e4762540d3fd7574",
   "minimumWindowsVersion": "0.11.21",
-  "notes": "Lyriix Android v0.2.9\n\n- Choose the part of your wallpaper to show with a drag-and-zoom preview. Apply saves your position; Cancel keeps the existing wallpaper. Use Adjust wallpaper to reposition it later, or Reset to center it.\n- Fixed wallpaper and theme updates restarting the whole screen. Image loading, saving, and color detection use a dedicated background worker, with progress shown while processing. Playback and navigation stay connected.\n- Detect theme colors now favors dominant color families in your selected crop instead of small bright highlights. Detection uses a small local sample and retains readable theme contrast.\n- Wallpaper decoding no longer holds the shared image-cache lock, and applying a new wallpaper reuses its already-decoded image.\n- Existing songs, queues, account data, pairing, and Android update signing remain compatible.\n"
+  "notes": "Lyriix Android v0.2.10\n\n- Swipe right across the main content to open the side menu. Swipe left/right across the mini-player to skip to the next/previous song. Seek bars, text fields, horizontal galleries, and vertical scrolling keep their normal gestures.\n- Search all music from the toolbar or side menu, including while viewing Settings, Profile, or lyrics. Search matches title, artist, and album words together; Back returns to the previous view.\n- Save up to 12 custom themes with their wallpaper, crop, dimming, and colors. Apply, rename, or delete saved themes in Appearance. Removing a saved theme keeps the currently applied appearance.\n- Tap the microphone for voice commands such as pause, next song, shuffle on, repeat song, search, or play followed by a song name. A matching song plays directly; ambiguous matches show search results for you to choose.\n- Speech uses your installed phone speech service and requests offline recognition where supported. That service may process audio online. Lyriix has no always-listening service, paid voice API, or new microphone permission. Typed commands are available if no speech service is installed.\n- The headphone assistant button keeps its existing assistant assignment. Normal headset media controls continue through Android's media session.\n- Music, account data, paired PC, queue restoration, and update signing remain compatible.\n"
 }
