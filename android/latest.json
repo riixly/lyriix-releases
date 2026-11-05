@@ -1,10 +1,10 @@
 {
-  "version": "0.2.13",
-  "versionCode": 16,
-  "url": "https://github.com/riixly/lyriix-releases/releases/download/v1.0.5/Lyriix-Android-0.2.13.apk",
-  "size": 2749958,
-  "sha256": "b75ddc93f3cf1ae9e4100dbb39be6e5ec7c5d1ed6e3f721dc9ac946688645e88",
+  "version": "0.2.15",
+  "versionCode": 18,
+  "url": "https://github.com/riixly/lyriix-releases/releases/download/v1.0.14/Lyriix-Android-0.2.15.apk",
+  "size": 2766882,
+  "sha256": "947c0e13c12fbcec5003d0e34926a6d9abfa9a249351d0719b37db0c74a7645a",
   "certificateSha256": "10be700d7319d1857be75080e0734a937ac4a350ffc19d22e4762540d3fd7574",
   "minimumWindowsVersion": "0.11.21",
-  "notes": "Lyriix Android v0.2.13\n\n- Added Statistics for everyone, with no profile required: listening time, plays, the past seven days, top songs, artists, albums and full-song streaks. Open it from the side menu or your profile.\n- Native playback records audible listening while the app is in the background, including downloads and phone imports. Paused time, buffering and seek jumps add no time. Completing a full song without seeking can qualify for a streak.\n- Choose this phone's history or combined phone + PC statistics. Offline counts save privately and sync over paired Wi-Fi when Lyriix Windows v1.0.5 or newer is available. Retries and reconnects do not count the same plays twice. Earlier PC history is retained; mobile tracking begins with this update.\n- Connect to a PC with its one-time pairing code. A profile or matching sign-in is no longer required. Existing profile privacy settings on the PC control whether combined statistics appear on its online profile. Guest statistics stay on the paired devices.\n- Kept account isolation, encrypted PC credentials, certificate pinning, Wi-Fi-only music transfer, existing downloads, themes, voice controls, queue restore and permanent Android update signing.\n"
+  "notes": "# Lyriix Android 0.2.15\n\n- Privacy mode keeps only anonymous listening time, with private hours in your statistics. It syncs with your paired PC running Lyriix 1.0.14 or newer over Wi-Fi. Offline devices keep their last setting until connected.\n- Add the Lyriix player widget to your home screen for album art and Previous, Play/Pause and Next controls. Private listening uses the Lyriix icon.\n"
 }
