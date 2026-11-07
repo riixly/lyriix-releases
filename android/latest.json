@@ -1,10 +1,10 @@
 {
-  "version": "0.2.16",
-  "versionCode": 19,
-  "url": "https://github.com/riixly/lyriix-releases/releases/download/v1.0.16/Lyriix-Android-0.2.16.apk",
-  "size": 2769054,
-  "sha256": "7a2accaefde043397764a71a97ff313b465fc3cb7a3707d4f68f8a90ea2671c9",
+  "version": "0.2.17",
+  "versionCode": 20,
+  "url": "https://github.com/riixly/lyriix-releases/releases/download/v1.8.0/Lyriix-Android-0.2.17.apk",
+  "size": 2770478,
+  "sha256": "71c38b2bb6a29fb72d84c8609afc1ac393a089c0a007ba727d5ab8d72a3735a2",
   "certificateSha256": "10be700d7319d1857be75080e0734a937ac4a350ffc19d22e4762540d3fd7574",
   "minimumWindowsVersion": "0.11.21",
-  "notes": "# Lyriix Android 0.2.16\n\n- Privacy mode works locally the moment you turn it on, even before pairing a PC.\n- Pick the same private Discord activity shown on Windows: hide it, show \u201cUsing privacy mode on Lyriix,\u201d or show \u201cListening to Lyriix.\u201d\n- Choose visible times, a private `--:--` label with the progress bar, or no progress. Visible privacy activity keeps the Lyriix Download button.\n"
+  "notes": "# Lyriix Android 0.2.17\n\n- Profile pictures show the equipped Discord frame. The frame stays on Discord, and other people see it on your profile.\n- Statistics stay in place while the numbers refresh, instead of jumping up and down.\n"
 }
